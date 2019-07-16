@@ -9,6 +9,7 @@ gem 'webpacker', '~> 3.5', '>= 3.5.5'
 gem 'jbuilder', '~> 2.9', '>= 2.9.1'
 gem 'sidekiq', '~> 5.2', '>= 5.2.5'
 gem 'premailer-rails', '~> 1.10', '>= 1.10.2'
+gem 'turbolinks'
 
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'devise_masquerade', '~> 0.6.5'

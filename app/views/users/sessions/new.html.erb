@@ -1,7 +1,7 @@
   <% content_for :page_title, "Log in. #{Rails.configuration.application_name}." %>
 <% content_for :page_description, "Log in to your #{Rails.configuration.application_name} account to get access to your Ruby on Rails template." %>
 
-<div class="mt-4 max-w-lg mx-auto">
+<div class="mt-4 max-w-sm mx-auto">
   <%= form_for(resource, as: resource_name, url: session_path(resource_name), html: { class: "card card--light p-4" }) do |f| %>
     <%= devise_error_messages! %>
 
@@ -29,10 +29,9 @@
     <% end -%>
 
     <div class="buttons">
-      <%= f.submit "Log in", class: "btn btn--primary" %>
+      <%= f.submit "Log in", class: "btn btn--primary w-full" %>
     </div>
   <% end %>
 
   <%= render "users/shared/links" %>
 </div>
-

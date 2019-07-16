@@ -209,6 +209,9 @@ GEM
     thor (0.19.4)
     thread_safe (0.3.6)
     ttfunk (1.5.1)
+    turbolinks (5.2.0)
+      turbolinks-source (~> 5.2)
+    turbolinks-source (5.2.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     virtus (1.0.5)
@@ -258,6 +261,7 @@ DEPENDENCIES
   storext (~> 2.2, >= 2.2.2)
   stripe (~> 4.21, >= 4.21.2)
   stripe_event (~> 2.2)
+  turbolinks
   tzinfo-data
   web-console (>= 3.3.0)
   webpacker (~> 3.5, >= 3.5.5)

@@ -1,9 +1,8 @@
 :root {
-  --brandColor: theme("colors.blue.600");
-  --brandColorDark: theme("colors.blue.700");
-  --secondaryBrandColor: theme("colors.green.600");
-  --secondaryBrandColorDark: theme("colors.green.700");
-  --textColor: theme("colors.gray.800");
-  --textColorInverted: theme("colors.white");
+  --brandColor: #2402FF;
+  --brandColorDark: #3027E4;
+  --secondaryBrandColor: #816DFF;
+  --secondaryBrandColorDark: #664FFF;
+  --textColor: #20272B;
+  --textColorInverted: #fff;
 }
-

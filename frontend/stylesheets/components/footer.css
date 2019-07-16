@@ -1,5 +1,5 @@
 .footer-wrapper {
-  @apply bg-gray-900;
+  @apply bg-transparent;
   @apply py-8 px-4;
 
   @screen sm {
@@ -44,4 +44,3 @@
     @apply underline;
   }
 }
-

@@ -1,10 +1,24 @@
-<% content_for :page_title, "About" %>
-<% content_for :page_description, "" %>
+<% content_for :page_title, "About - UXZero" %>
+  <% content_for :page_description, "Learn more about UXZero" %>
+    <div class="w-full inline-block text-center mt-5">
+      <h1 class="text-3xl leading-tight font-bold">About</h1>
 
-<div class="mt-16 max-w-2xl mx-auto">
-  <h1 class="text-3xl mb-4">About</h1>
-  <p class="mb-8 text-lg text-gray-700">Tell a little story about how your product came to be, a vision, ideas and something more about you.</p>
+      <div class="mt-16 max-w-2xl mx-auto pb-8 w-full xl:w-1/3 inline-block px-5">
+        <div class="card card--light mb-8 content-center text-center justify-center">
 
-  <p class="mb-8">And let's continue the story here…</p>
-</div>
+          <div class="card__content text-center">
+            <%= image_tag("Colin-Bethea.png", class: "mx-auto w-32 rounded-full mb-4") %>
+            <h3 class="mb-0 text-xl font-semibold mb-2">Colin Bethea</h3>
+            <h3 class="mb-0 text-md font-medium mb-4">Founder &amp; Developer</h3>
+            <%= mail_to "colin@synthate.com", "Email", class: "btn btn--drop-shadow" %>
+            <%= link_to "LinkedIn", "https://www.linkedin.com/in/colinbethea/", target: "blank", class: "btn btn--drop-shadow" %>
+          </div>
+        </div>
+        <p class="text-xl mb-4 text-center font-thin">Visit my
+          <a href="https://www.colinbethea.com" target="_blank" class="text-indigo-500">personal website</a>
+          for my bio/resume</p>
 
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>

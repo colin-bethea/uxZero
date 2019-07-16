@@ -1,7 +1,7 @@
   <% content_for :page_title, "Create your #{Rails.configuration.application_name} account." %>
 <% content_for :page_description, "Create your #{Rails.configuration.application_name} account to get access today." %>
 
-<div class="mt-4 max-w-lg mx-auto">
+<div class="mt-4 max-w-sm mx-auto">
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { class: "card card--light p-4" }) do |f| %>
     <%= devise_error_messages! %>
 
@@ -22,13 +22,12 @@
       <%= f.password_field :password, placeholder: "•••••••••••••", autocomplete: "new-password", class: "input" %>
     </div>
 
-    
+
 
     <div class="actions">
-      <%= f.submit "Create an account", class: "btn btn--primary" %>
+      <%= f.submit "Create an account", class: "btn btn--primary w-full" %>
     </div>
   <% end %>
 
   <%= render "users/shared/links" %>
 </div>
-

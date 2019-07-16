@@ -1,5 +1,5 @@
 .nav {
-  @apply bg-white;
+  @apply bg-transparent;
 }
 
 .nav__content {
@@ -12,6 +12,7 @@
 
   @screen sm {
     @apply text-base;
+    @apply w-32;
   }
 }
 
@@ -148,4 +149,3 @@
     @apply rounded-full;
   }
 }
-
