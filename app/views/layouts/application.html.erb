@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= render "shared/head" %>
+</head>
+
+<body class="<%= body_class(yield(:body_class)) %>">
+  <%= render "shared/flash" %>
+  <%= render "shared/navigation" %>
+
+  <%= yield %>
+  <%= render "shared/footer" %>
+</body>
+</html>
+
+
+
