@@ -2,7 +2,7 @@
   <div class="footer container max-w-5xl mx-auto">
     <div class="footer__items">
       <%= link_to Rails.configuration.application_name, root_path, class: "text-sm text-gray-300 font-semibold uppercase tracking-wider" %>
-      <p class="mt-2 text-xs text-gray-400">©
+      <p class="mt-2 text-xs text-gray-400">© Synthate, LLC
         <%= Time.zone.now.strftime("%Y") %></p>
     </div>
 
@@ -13,7 +13,7 @@
         <%= link_to "About", about_path, class: "footer__link" %>
       </li>
       <li class="footer__item">
-        <%= link_to "Pricing", pricing_path, class: "footer__link" %>
+        <%= link_to "Pricing", "#", class: "footer__link" %>
       </li>
       <li class="footer__item">
         <%= link_to "Designer", "https://www.colinbethea.com", target: "_blank", class: "footer__link" %>
