@@ -24,6 +24,8 @@ gem 'stripe', '~> 4.21', '>= 4.21.2'
 gem 'stripe_event', '~> 2.2'
 gem 'receipts', '~> 0.2.2'
 
+gem 'uglifier'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
