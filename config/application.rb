@@ -35,6 +35,9 @@ module Uxzero
     config.to_prepare do
       Devise::Mailer.layout 'mailer'
     end
+    Raven.configure do |config|
+      config.dsn = 'https://3add7b55c033417d9ea66f98f0333e7b:2223e91af2604d9fb43252bc453dd3de@sentry.io/1509642'
+    end
 
   end
 end
