@@ -1,6 +1,6 @@
 <%= content_for :body_class%>
-<% content_for :page_title, "Premium UI/UX components in pure CSS, Tailwind, and Bootstrap - UXZero" %>
-  <% content_for :page_description, "Get access to UXZero's premium, modern UI/UX components in pure CSS, Tailwind, and Bootstrap." %>
+<% content_for :page_title, "Premium UI/UX styled-components in pure CSS, Tailwind, and Bootstrap - UXZero" %>
+  <% content_for :page_description, "Get access to UXZero's premium, modern UI/UX styled-components in pure CSS, Tailwind, and Bootstrap." %>
     <body>
       <main>
         <div class="hero text-center sm:text-left">
@@ -12,17 +12,21 @@
               <span class="px-2 text-white rounded" style="background: rgb(48,39,228); background: linear-gradient(45deg, rgba(48,39,228,1) 0%, rgba(102,79,255,1) 50%);">UX</span>
             </h1>
             <h2 class="hero__subheading">
-              Get instant access to beautiful, modular components in
+              Get instant access to beautiful, modular, styled-components in
               <span class="typer font-bold" id="main" data-words="Tailwind., Bootstrap., Raw CSS." data-delay="20" data-deletedelay="1000" data-colors="var(--brandColor)"></span>
             </h2>
             <script async="async" src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
             <div>
-              <%= link_to "Start Now", new_user_registration_path, class: "btn btn--primary mr-4 hvr-float cursor-pointer" %>
+
+              <form action="https://submit-form.com/i512aOJZHMbM7SpCpmCbT" target="_self">
+                 <input type="text" name="email" placeholder="Email" class="field input inline-block w-56 outline-none">
+                 <button type="submit" class="btn btn--primary ml-3">Join Waitlist</button>
+              </form>
             </div>
           </div>
 
           <div class="image__container">
-            <img src="https://cdn.dribbble.com/users/182336/screenshots/5840443/dribbbletrunow2_2x.png" class="rounded hero__image"></img>
+            <img src="<%= image_url('landing') %>" class="rounded hero__image"></img>
           </div>
         </div>
       </main>

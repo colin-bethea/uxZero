@@ -25,6 +25,14 @@
   }
 }
 
+.component__container {
+  @apply w-full h-64;
+
+  @screen sm {
+    @apply absolute right-0 top-0 w-1/2 h-full;
+  }
+}
+
 .hero__image {
   @apply text-center justify-center content-center;
   @apply hidden;
