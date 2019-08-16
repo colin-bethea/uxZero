@@ -8,7 +8,7 @@
 }
 
 .nav__logo {
-  @apply text-sm text-gray-600 font-medium uppercase tracking-wider;
+  @apply text-sm text-gray-600 font-medium uppercase tracking-wider w-32;
 
   @screen sm {
     @apply text-base;
