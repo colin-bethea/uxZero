@@ -23,7 +23,10 @@ module Sjabloon
       # Examples:
       # team_members Integer
       # concierge_service Boolean, default: false
+      all_components Integer, default: true
+      tailwind_code Integer, default: true
+      new_additions Integer, default: true
+      dedicated_support Integer, default: true
     end
   end
 end
-

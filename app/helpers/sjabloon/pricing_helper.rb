@@ -15,7 +15,7 @@ module Sjabloon::PricingHelper
   private
 
   def button_label
-    user_signed_in? ? signed_in_button_label : "Get started"
+    user_signed_in? ? signed_in_button_label : "Start Now"
   end
 
   def button_path(plan_id)
@@ -33,4 +33,3 @@ module Sjabloon::PricingHelper
     current_payer.subscribed? ? billing_plans_path : new_billing_path(plan: plan.processor_id)
   end
 end
-

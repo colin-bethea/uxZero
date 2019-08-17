@@ -29,7 +29,7 @@ module Sjabloon::PlansHelper
     when String
       key.humanize
     when true
-      "#{key.humanize} included"
+      "#{key.humanize}"
     when false
       "#{key.humanize} not included"
     end
@@ -58,4 +58,3 @@ module Sjabloon::PlansHelper
     end
   end
 end
-
